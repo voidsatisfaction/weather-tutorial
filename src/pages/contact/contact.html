@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      설정
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <!-- <ion-list-header>Follow us on Twitter</ion-list-header> -->
+    <ion-item [navPush]="pushPage">
+      <ion-icon name="alarm" item-start></ion-icon>
+      시간 알람
+    </ion-item>
+    <ion-item>
+      <ion-icon name="brush" item-start></ion-icon>
+      색깔
+    </ion-item>
+    <ion-item>
+      <ion-icon name="musical-notes" item-start></ion-icon>
+      진동
+    </ion-item>
+    <ion-item>
+      <ion-icon name="notifications" item-start></ion-icon>
+      알람 반복
+    </ion-item>
+  </ion-list>
+</ion-content>
